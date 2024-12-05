@@ -1,0 +1,17 @@
+[project]
+name = "pushswapvisualizer"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Tom0427", email = "82128211+Tom-game-project@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+pushswapvisualizer = "pushswapvisualizer:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
